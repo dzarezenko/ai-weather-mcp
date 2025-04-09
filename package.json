@@ -5,10 +5,12 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "build": "tsc && build/index.js"
+    "build": "tsc",
+    "clean": "rm -rf build",
+    "npm-publish": "npm run clean && npm run build && npm publish"
   },
   "bin": {
-    "mcp-remote": "./build/index.js"
+    "weather": "cli.js"
   },
   "files": [
     "build"

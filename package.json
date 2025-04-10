@@ -6,14 +6,13 @@
     "type": "git",
     "url": "git+https://github.com/dzarezenko/ai-weather-mcp.git"
   },
-  "type": "module",
   "scripts": {
     "build": "tsc",
     "clean": "rm -rf build",
     "npm-publish": "npm run clean && npm run build && npm publish"
   },
   "bin": {
-    "weather": "node ./build/index.js"
+    "weather": "./build/index.js"
   },
   "files": [
     "build"

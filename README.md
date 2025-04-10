@@ -4,11 +4,11 @@ This repository contains a simple MCP (Model Control Protocol) server implementa
 
 ## 🛰️ About
 
-This MCP server provides an example of how to implement weather-based intelligence as an API-powered AI agent that integrates with GitMCP.
+This MCP server provides an example of how to implement weather-based intelligence as an API-powered AI agent.
 
 ## 📦 Installation
 
-To run this MCP server via GitMCP, no manual installation is needed. GitMCP will automatically fetch and run the server based on the configuration below.
+To run this MCP server, no manual installation is needed.
 
 However, for local development or testing, you can run:
 
@@ -18,26 +18,22 @@ npm run build
 node ./build/index.js
 ```
 
-## 🚀 GitMCP Configuration
+## 🚀 Claude Configuration
 
-To use this repository with GitMCP, include the following configuration:
+To use this repository with Claude, include the following configuration:
 
 ```json
 {
   "mcpServers": {
-    "ai-weather-mcp Docs": {
+    "weather": {
       "command": "npx",
       "args": [
-        "mcp-remote@latest",
-        "https://gitmcp.io/dzarezenko/ai-weather-mcp",
-        "--clean"
+        "ai-weather-mcp@latest"
       ]
     }
   }
 }
 ```
-
-GitMCP will execute this command to start the MCP server.
 
 ## 📁 Project Structure
 
@@ -53,10 +49,4 @@ To run the MCP server locally:
 npm install
 npm run build
 node ./build/index.js
-```
-
-You can simulate GitMCP behavior with:
-
-```bash
-npx mcp-remote https://gitmcp.io/microsoft/playwright-mcp
 ```

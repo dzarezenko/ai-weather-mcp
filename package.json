@@ -13,7 +13,7 @@
     "npm-publish": "npm run clean && npm run build && npm publish"
   },
   "bin": {
-    "ai-weather-mcp": "cli.js"
+    "weather": "cli.js"
   },
   "files": [
     "build"

@@ -28,7 +28,7 @@ To use this repository with GitMCP, include the following configuration:
     "weather": {
       "command": "npx",
       "args": [
-        "@dzarezenko/ai-weather-mcp@latest"
+        "ai-weather-mcp@latest"
       ]
     }
   }

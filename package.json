@@ -12,7 +12,7 @@
     "npm-publish": "npm run clean && npm run build && npm publish"
   },
   "bin": {
-    "weather": "./build/index.js"
+    "weather": "./cli.js"
   },
   "files": [
     "build"

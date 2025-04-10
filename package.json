@@ -1,8 +1,11 @@
 {
-  "name": "ai-weather-mcp",
-  "version": "1.0.1",
+  "name": "@dzarezenko/ai-weather-mcp",
+  "version": "1.0.2",
   "description": "",
-  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dzarezenko/ai-weather-mcp.git"
+  },
   "type": "module",
   "scripts": {
     "build": "tsc",
@@ -15,9 +18,9 @@
   "files": [
     "build"
   ],
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["ai", "mcp", "weather"],
+  "author": "Dmytro Zarezenko",
+  "license": "GPL-3.0",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.9.0",
     "zod": "^3.24.2"

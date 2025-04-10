@@ -1,6 +1,6 @@
 {
   "name": "ai-weather-mcp",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "repository": {
     "type": "git",
@@ -13,7 +13,7 @@
     "npm-publish": "npm run clean && npm run build && npm publish"
   },
   "bin": {
-    "weather": "cli.js"
+    "ai-weather-mcp": "cli.js"
   },
   "files": [
     "build"

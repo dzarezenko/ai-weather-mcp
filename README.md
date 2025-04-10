@@ -25,10 +25,12 @@ To use this repository with GitMCP, include the following configuration:
 ```json
 {
   "mcpServers": {
-    "weather": {
+    "ai-weather-mcp Docs": {
       "command": "npx",
       "args": [
-        "ai-weather-mcp@latest"
+        "mcp-remote@latest",
+        "https://gitmcp.io/dzarezenko/ai-weather-mcp",
+        "--clean"
       ]
     }
   }
